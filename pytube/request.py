@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Implements a simple wrapper around urlopen."""
 from pytube.compat import urlopen
-from urllib2 import Request
+from urllib.request import Request
 
 
 def get(
